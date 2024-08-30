@@ -1,0 +1,73 @@
+.containerSemestersStudyPlan {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 60px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.boxSemesterStudyPlan {
+    width: 100%;
+    height: 100%;
+    min-height: fit-content;
+    background-color: #e62f4a;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    padding: 10px;
+    flex-direction: column; 
+    transition: transform 0.2s ease;
+}
+
+.boxSemesterStudyPlan h2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+}
+
+.boxSemesterStudyPlan ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxSemesterStudyPlan ul li {
+    color: white;
+}
+
+.coursesStudyPlan {
+    display: none; /* Ocultar la lista de cursos inicialmente */
+}
+
+.containerButtonSemesterStudyPlan {
+    width: 100%;
+    text-align: center;
+}
+
+.buttonDownloadSemesterStudyPlan {
+    min-width: fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    border-width: 3px;
+    background-color: #e62f4a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+}

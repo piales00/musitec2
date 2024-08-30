@@ -1,0 +1,44 @@
+.containj{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 90px;
+    width: 1400px;
+    transform: translate(60px, 60px);
+  
+  }
+  
+  
+  .contenedorImagent {
+    width: 30%;
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+  }
+  .text-inter {
+    text-align: justify;
+    color: #222020;
+    font-size: 20px;
+  }
+  
+  .buttont {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-width: 3px;
+    background-color: #e62f4a;
+    color: #ffffff;
+    font-weight: bold;
+    width: 20%;
+    cursor: pointer;
+  
+  }
+  

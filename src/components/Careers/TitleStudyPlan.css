@@ -1,0 +1,29 @@
+.containerTitleStudyPlan {
+    width:min-content;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+#titleStudyPlan {
+    margin-bottom: 0;
+    font-family: 'Poppins',sans-serif;
+    color: #0c0a09;  
+}
+#titleCareerStudyPlan {
+    margin-bottom: 4px;
+    margin-top: 0;
+    font-family: 'Poppins',sans-serif;
+    color: #78716c;
+}
+
+.underlineStudyPlan {
+    width: 75%;
+    height: 8px;
+    background-color: #e62f4a;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}

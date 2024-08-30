@@ -1,0 +1,139 @@
+
+.wrapper {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    padding: 80px 16px;
+    height: 1300px;
+}
+
+.subjetc{
+    width:min-content;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    transform: translateY(-130px);
+}
+
+.subjetc2{
+    width:min-content;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    transform: translateY(-50px);
+}
+
+
+.subjetc3{
+    width:min-content;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    transform: translateY(-50px);
+}
+#tituloMalla {
+    margin-bottom: 0;
+    font-family: 'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-dark);  
+}
+#tituloInterMusic{
+    margin-bottom: 4px;
+    margin-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-light);
+}
+
+.subrayado {
+    width: 75%;
+    height: 8px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.contenidot {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 60px;
+    justify-content: center;
+    transform: translateY(-190px);
+
+}
+
+
+.contenido2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 60px;
+    justify-content: center;
+    transform: translateY(-100px);
+
+}
+
+.contenidooo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 60px;
+    justify-content: center;
+    transform: translateY(-230px); 
+    margin: 70px 0;
+}
+
+.contenido3 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 60px;
+    justify-content: center;
+    transform: translateY(-100px);
+
+}
+.boxt {
+    width: 450px; /* Ancho del cubo */
+    height: 400px; /* Alto del cubo */
+    background-color:var(--primary-color); /* Color de fondo del cubo */
+    font-family: 'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding: 10px; /* Padding interno */
+    flex-direction: column; 
+}
+
+
+.boxt img {
+    width: 355px;
+    height: 500px;
+}
+
+.h2{
+    text-align: center;
+    color: var(--white);
+}
+
+.li {
+    color: var(--white);
+}
+
+.boxt ul {
+    transform: translateX(30px);
+
+}

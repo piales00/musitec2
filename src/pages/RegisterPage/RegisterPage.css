@@ -1,0 +1,127 @@
+/* RegisterPage.css */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .body__container {
+    display: flex;
+    gap: 2rem; 
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .feature-image {
+    height: 700px;
+    width: 700px;
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .body__cuestionario {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    height: 700px;
+  }
+  
+  .enun1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  #l1 {
+    color: #dc2626;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  #l2 {
+    color: #4b5563;
+    font-size: 1.2rem;
+  }
+  
+  .registro {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .controls {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 1rem;
+
+  }
+  
+  .flex {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .flex .controls {
+    flex: 1;
+    margin-bottom: 0;
+  }
+  
+  select.controls {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23999' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7l3-3 3 3m0 6l-3 3-3-3'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.5rem 1.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  #registerBtn {
+    background-color: red;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  #registerBtn:hover {
+    background-color: red;
+  }
+  
+  #formFeedback {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  #question {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  #termsLink {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+  }
+  
+  #termsLink:hover {
+    color: red;
+  }
+  
+  .feature-image {    
+    transition: opacity 0.5 ease-in-out;
+    object-fit: cover;
+  }

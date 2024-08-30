@@ -1,0 +1,38 @@
+.contenedor________piero {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.body__pagina__final {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/images/Inscribirse/concierto2.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .body__pagina__final::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Oscurece el fondo */
+    z-index: -1;
+  }
+  
+  .h1_pagina_final {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,91 @@
+.seccion_body_tipos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: red;
+    background-attachment: fixed;
+ 
+  
+}
+
+.contenedor_tipos_convenios {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 20px;
+    padding: 20px 0;
+}
+
+.contenedor_tipos_convenios .tarjeta_tipos_convenios {
+    position: absolute;
+    position: relative;
+    height: 250px;
+    background: white;
+    display: flex;
+    width: 25%;
+    margin: 10px 0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 1);
+}
+
+.contenedor_tipos_convenios .tarjeta_tipos_convenios .imgTC {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0, 1);
+    backdrop-filter: blur(20px);
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0, 2);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0, 1);
+    transition: 0.5s ease-in-out;
+}
+
+
+.contenedor_tipos_convenios .tarjeta_tipos_convenios .imgTC img{
+    max-width: 100px;
+    
+    transition: 0.5s ease-in-out;
+}
+
+.contenedor_tipos_convenios .tarjeta_tipos_convenios:hover .imgTC img {
+    max-width: 75px;
+}
+
+
+.contenedor_tipos_convenios .tarjeta_tipos_convenios .contenido_tipos_convenios {
+    position: absolute; 
+    right: 0;
+    width: calc(100% - 75px);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_tipos_convenios .tarjeta_tipos_convenios .contenido_tipos_convenios h3 {
+    color: red;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.contenedor_tipos_convenios .tarjeta_tipos_convenios .contenido_tipos_convenios a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background: blue;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+} 

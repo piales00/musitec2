@@ -1,0 +1,24 @@
+.slider_piero {
+    width: 90%; 
+    margin: 0 auto; 
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .slider_piero--inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider_piero_seccion {
+    min-width: 100%;
+    background: white;
+  }
+  
+  .slider_piero_seccion img {
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+
+  }
+  

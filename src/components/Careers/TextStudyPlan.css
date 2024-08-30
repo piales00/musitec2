@@ -1,0 +1,9 @@
+#textStudyPlan {
+    width: 100%;
+    margin-top: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-family: 'Poppins',sans-serif;
+    color: #78716c;
+}

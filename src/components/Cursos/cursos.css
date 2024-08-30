@@ -1,0 +1,21 @@
+/* Estilo para la caja principal */
+.container-cursos {
+    padding: 25px; /* Elimina el padding para ajustar el tamaño */
+    width: 70%; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Centra el contenedor principal */
+    display: flex; /* Usa flexbox para controlar el espaciado de los contenedores internos */
+    flex-direction: column; /* Asegura que los contenedores estén en columna */
+    gap: 5px; /* Ajusta el espacio entre los contenedores .c1 */
+}
+
+.c1 {
+    width: 1500px;
+    margin: 20px 0;
+    height: 200px;
+    position: relative; /* Necesario para que `left` funcione */
+    left: -300px; /* Ajusta este valor según sea necesario para mover la caja hacia la izquierda */
+}
+
+.c1 p {
+    font-size: 15px;
+  }

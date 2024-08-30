@@ -1,0 +1,27 @@
+
+.data__content {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.data__card {
+  text-align: center;
+  flex: 1 1 180px;
+}
+
+.data__card h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.data__card p {
+  color: var(--text-light);
+}
+
